@@ -10,8 +10,16 @@ platform :ios do
 
    lane :build do
      puts("lets try to build something here...")
+     match(type: "development")
      build_app
      puts("it works! 🙈")
+   end
+
+   lane :provisioning do
+     puts("let me handle the provisioning for you...")
+     match(type: "development")
+     match(type: "appstore")
+     puts("provisioning sorted! 😋")
    end
 
 end

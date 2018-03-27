@@ -26,6 +26,11 @@ fastlane ios example
 fastlane ios build
 ```
 
+### ios provisioning
+```
+fastlane ios provisioning
+```
+
 
 ----
 
