@@ -3,7 +3,15 @@ fastlane_version "2.24.0"
 default_platform :ios
 
 platform :ios do
+
    lane :example do
       puts("this is my first 🚀 lane")
    end
+
+   lane :build do
+     puts("lets try to build something here...")
+     build_app
+     puts("it works! 🙈")
+   end
+
 end
