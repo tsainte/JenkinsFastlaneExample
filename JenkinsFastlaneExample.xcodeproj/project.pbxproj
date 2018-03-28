@@ -344,7 +344,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobwiz.JenkinsFastlaneExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "69dda814-0de4-4db5-9e3a-21d235ad52e3";
+				PROVISIONING_PROFILE = "88f1893c-9aa0-4ffe-8d64-aca691f87f36";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development br.com.mobwiz.JenkinsFastlaneExample";
 				SWIFT_VERSION = 3.0;
 			};
@@ -362,7 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobwiz.JenkinsFastlaneExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1158638a-b4fc-44b2-81f7-983db208a9ff";
+				PROVISIONING_PROFILE = "8baa58bf-1f9d-4055-a887-2a5f69bf3b4a";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore br.com.mobwiz.JenkinsFastlaneExample";
 				SWIFT_VERSION = 3.0;
 			};
