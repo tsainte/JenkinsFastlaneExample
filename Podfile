@@ -7,4 +7,7 @@ target 'JenkinsFastlaneExample' do
 
   # Pods for JenkinsFastlaneExample
 
+  # Make sure you use the language as it should
+  pod 'SwiftLint'
+
 end

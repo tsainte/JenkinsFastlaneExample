@@ -19,6 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func swiftLintTest() {
+//        var someForceCast = NSObject() as! Int
+//        var colonOnWrongSide :Int = 0
+//        
+//        someForceCast = 0
+//        colonOnWrongSide = 1
+//        print("\(someForceCast) \(colonOnWrongSide)")
+    }
 
 
 }
