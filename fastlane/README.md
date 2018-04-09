@@ -31,6 +31,11 @@ fastlane ios build
 fastlane ios provisioning
 ```
 
+### ios metrics
+```
+fastlane ios metrics
+```
+
 
 ----
 
