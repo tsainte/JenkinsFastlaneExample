@@ -24,7 +24,7 @@ platform :ios do
 
     lane :metrics do
       scan(scheme: "JenkinsFastlaneExample", clean: true, code_coverage: true, derived_data_path: "./DerivedData", output_directory: "./reports")
-      #slather(cobertura_xml: true, jenkins: true, scheme: "JenkinsFastlaneExample", build_directory: "./DerivedData", output_directory: "./reports", workspace: "./JenkinsFastlaneExample.xcworkspace", proj: "./JenkinsFastlaneExample.xcodeproj")
+      slather(cobertura_xml: true, jenkins: true, scheme: "JenkinsFastlaneExample", build_directory: "./DerivedData", output_directory: "./reports", workspace: "./JenkinsFastlaneExample.xcworkspace", proj: "./JenkinsFastlaneExample.xcodeproj")
       sh("cd .. && lizard -l swift --xml > ./reports/lizard-report.xml")
       swiftlint(executable: "Pods/SwiftLint/swiftlint", output_file: "./reports/swiftlint.txt", ignore_exit_status: true)
       sonar
